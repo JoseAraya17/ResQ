@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ResQ+ | Capacitaciones</title>
+
+    <link rel="icon" type="image/png" href="img/logo1.png">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="container header-content">
+
+            <a href="index.html" class="brand">
+                <img src="img/logo1.png" alt="Logo ResQ+">
+                <strong>ResQ+</strong>
+            </a>
+
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="emergencias.html">Emergencias</a></li>
+                    <li><a class="active" href="cursos.html">Cursos</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+
+        <section class="container cursos-hero">
+
+            <span class="tagline">Registro de capacitaciones</span>
+
+            <h1>Inscríbete para participar por un cupo</h1>
+
+            <p>
+                Registra tu interés en futuras capacitaciones de primeros auxilios.
+                También puedes consultar cursos sugeridos e identificar instituciones
+                cercanas donde podrías certificarte.
+            </p>
+
+        </section>
+
+        <!-- MAPA -->
+
+        <section class="container mapa-section">
+
+            <h2>Instituciones cercanas</h2>
+
+            <p>
+                Busca instituciones, Cruz Roja, INA, universidades o centros de capacitación
+                cercanos donde podrías consultar cursos certificados de primeros auxilios.
+            </p>
+
+            <div class="mapa-acciones">
+
+                <button id="btnInstituciones" class="btn-primary" type="button">
+                    Buscar instituciones cerca de mí
+                </button>
+
+                <p id="mensajeInstituciones" class="mensaje"></p>
+
+            </div>
+
+            <iframe
+                id="mapaInstituciones"
+                src="https://www.google.com/maps?q=cruz%20roja%20ina%20universidades%20centros%20de%20capacitacion%20primeros%20auxilios%20Costa%20Rica&output=embed"
+                width="100%"
+                height="420"
+                loading="lazy"
+                title="Mapa de instituciones de capacitación">
+            </iframe>
+
+        </section>
+
+        <!-- CATÁLOGO DE CURSOS -->
+
+        <section class="container">
+
+            <div class="titulo-resultados">
+
+                <h2>Catálogo de cursos</h2>
+
+                <span class="contador">
+                    Cursos cargados desde JSON
+                </span>
+
+            </div>
+
+            <div id="listaCursos" class="cards-grid">
+                <!-- JavaScript cargará los cursos desde data/cursos.json -->
+            </div>
+
+        </section>
+                <!-- FORMULARIO Y REGISTROS -->
+
+        <section class="container cursos-layout">
+
+            <form id="formInscripcion" class="curso-form">
+
+                <h2>Formulario de inscripción</h2>
+
+                <p>
+                    Completa tus datos básicos para registrar tu interés en participar
+                    por un cupo en una capacitación de primeros auxilios.
+                </p>
+
+                <div class="campo">
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" id="nombre" placeholder="Ejemplo: José Pablo">
+                    <small id="errorNombre" class="error-campo"></small>
+                </div>
+
+                <div class="campo">
+                    <label for="correo">Correo electrónico</label>
+                    <input type="email" id="correo" placeholder="correo@ejemplo.com">
+                    <small id="errorCorreo" class="error-campo"></small>
+                </div>
+
+                <div class="campo">
+                    <label for="telefono">Teléfono</label>
+                    <input type="text" id="telefono" placeholder="Ejemplo: 8888-8888">
+                    <small id="errorTelefono" class="error-campo"></small>
+                </div>
+
+                <div class="campo">
+                    <label for="provincia">Provincia</label>
+                    <select id="provincia">
+                        <option value="">Seleccione una provincia</option>
+                        <option value="Alajuela">Alajuela</option>
+                        <option value="San José">San José</option>
+                        <option value="Heredia">Heredia</option>
+                        <option value="Cartago">Cartago</option>
+                        <option value="Guanacaste">Guanacaste</option>
+                        <option value="Puntarenas">Puntarenas</option>
+                        <option value="Limón">Limón</option>
+                    </select>
+                    <small id="errorProvincia" class="error-campo"></small>
+                </div>
+
+                <div class="campo">
+                    <label for="curso">Curso de interés</label>
+                    <select id="curso">
+                        <option value="">Seleccione un curso</option>
+                    </select>
+                    <small id="errorCurso" class="error-campo"></small>
+                </div>
+
+                <div class="campo">
+                    <label for="experiencia">Nivel de experiencia</label>
+                    <select id="experiencia">
+                        <option value="">Seleccione una opción</option>
+                        <option value="Sin experiencia">Sin experiencia</option>
+                        <option value="Con conocimientos básicos">Con conocimientos básicos</option>
+                        <option value="Con capacitación previa">Con capacitación previa</option>
+                    </select>
+                    <small id="errorExperiencia" class="error-campo"></small>
+                </div>
+
+                <div class="campo">
+                    <label for="fecha">Fecha disponible</label>
+                    <input type="date" id="fecha">
+                    <small id="errorFecha" class="error-campo"></small>
+                </div>
+
+                <button class="btn-primary" type="submit">
+                    Guardar inscripción
+                </button>
+
+                <p id="mensajeFormulario" class="mensaje"></p>
+
+            </form>
+
+            <section class="cursos-guardados-box">
+
+                <div class="titulo-resultados">
+
+                    <h2>Registros guardados</h2>
+
+                    <button id="btnBorrarTodo" class="btn-secondary" type="button">
+                        Limpiar registros
+                    </button>
+
+                </div>
+
+                <div class="resumen-registros">
+                    <p id="totalInscritos">Personas inscritas: 0</p>
+                    <p id="cursoPopular">Curso más solicitado: -</p>
+                    <p id="provinciaPopular">Provincia con mayor interés: -</p>
+                </div>
+
+                <div id="listaInscritos" class="cards-guardadas">
+                    <!-- JavaScript cargará los registros guardados aquí -->
+                </div>
+
+            </section>
+
+        </section>
+            </main>
+
+    <footer>
+
+        <div class="container footer-content">
+
+            <section>
+                <h3>ResQ+</h3>
+                <p>
+                    Plataforma educativa desarrollada para facilitar el aprendizaje de
+                    primeros auxilios y promover la preparación ante situaciones de emergencia.
+                </p>
+            </section>
+
+            <section>
+                <h3>Enlaces rápidos</h3>
+
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="emergencias.html">Emergencias</a></li>
+                    <li><a href="cursos.html">Cursos</a></li>
+                </ul>
+
+            </section>
+
+            <section>
+
+                <h3>Acerca de ResQ+</h3>
+
+                <p>
+                    Los cursos e instituciones mostrados tienen fines educativos.
+                    La información registrada se almacena únicamente en el navegador
+                    mediante LocalStorage como parte de este proyecto académico.
+                </p>
+
+            </section>
+
+        </div>
+
+        <div class="copy">
+
+            <small>
+                © 2026 ResQ+ | Proyecto académico de Desarrollo Web
+            </small>
+
+        </div>
+
+    </footer>
+
+    <script src="js/cursos.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "nombre": "Primeros Auxilios Básicos",
+    "nivel": "Básico",
+    "estado": "Disponible",
+    "duracion": "8 horas",
+    "modalidad": "Presencial",
+    "institucion": "Cruz Roja Costarricense",
+    "descripcion": "Aprenda a actuar correctamente durante los primeros minutos de una emergencia, brindando atención inicial hasta la llegada de los servicios médicos.",
+    "imagen": "img/cursos/primeros_auxilios.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "RCP para Adultos",
+    "nivel": "Intermedio",
+    "estado": "Disponible",
+    "duracion": "6 horas",
+    "modalidad": "Presencial",
+    "institucion": "Cruz Roja Costarricense",
+    "descripcion": "Capacitación enfocada en la reanimación cardiopulmonar y la atención inicial de un paro cardiorrespiratorio.",
+    "imagen": "img/cursos/rcp_adultos.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "RCP Pediátrico",
+    "nivel": "Intermedio",
+    "estado": "Disponible",
+    "duracion": "6 horas",
+    "modalidad": "Presencial",
+    "institucion": "Hospital Nacional de Niños",
+    "descripcion": "Aprenda las técnicas adecuadas de reanimación cardiopulmonar en bebés y niños.",
+    "imagen": "img/cursos/rcp_pediatrico.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Uso del DEA",
+    "nivel": "Intermedio",
+    "estado": "Disponible",
+    "duracion": "4 horas",
+    "modalidad": "Presencial",
+    "institucion": "Cruz Roja Costarricense",
+    "descripcion": "Conozca el funcionamiento y uso seguro del Desfibrilador Externo Automático durante una emergencia.",
+    "imagen": "img/cursos/dea.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Control de Hemorragias",
+    "nivel": "Básico",
+    "estado": "Disponible",
+    "duracion": "5 horas",
+    "modalidad": "Presencial",
+    "institucion": "Bomberos de Costa Rica",
+    "descripcion": "Aprenda técnicas para controlar hemorragias y estabilizar a la víctima mientras llega la ayuda profesional.",
+    "imagen": "img/cursos/hemorragias.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Atención de Quemaduras",
+    "nivel": "Básico",
+    "estado": "Disponible",
+    "duracion": "4 horas",
+    "modalidad": "Virtual",
+    "institucion": "Universidad de Costa Rica",
+    "descripcion": "Identifique los diferentes tipos de quemaduras y conozca la atención inicial recomendada.",
+    "imagen": "img/cursos/quemaduras.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Fracturas e Inmovilización",
+    "nivel": "Intermedio",
+    "estado": "Disponible",
+    "duracion": "6 horas",
+    "modalidad": "Presencial",
+    "institucion": "Cruz Roja Costarricense",
+    "descripcion": "Aprenda técnicas básicas para inmovilizar extremidades lesionadas y evitar complicaciones.",
+    "imagen": "img/cursos/fracturas.jpg"
+  },
+  {
+    "id": 8,
+    "nombre": "Emergencias Respiratorias",
+    "nivel": "Básico",
+    "estado": "Disponible",
+    "duracion": "4 horas",
+    "modalidad": "Virtual",
+    "institucion": "INA",
+    "descripcion": "Curso enfocado en la atención inicial de atragantamientos y otras emergencias respiratorias.",
+    "imagen": "img/cursos/respiratorias.jpg"
+  },
+  {
+    "id": 9,
+    "nombre": "Primeros Auxilios en Niños",
+    "nivel": "Intermedio",
+    "estado": "Disponible",
+    "duracion": "6 horas",
+    "modalidad": "Presencial",
+    "institucion": "Hospital Nacional de Niños",
+    "descripcion": "Capacitación especializada en la atención inicial de emergencias pediátricas.",
+    "imagen": "img/cursos/ninos.jpg"
+  },
+  {
+    "id": 10,
+    "nombre": "Atención Prehospitalaria Básica",
+    "nivel": "Avanzado",
+    "estado": "Disponible",
+    "duracion": "12 horas",
+    "modalidad": "Presencial",
+    "institucion": "Cruz Roja Costarricense",
+    "descripcion": "Introducción a la atención prehospitalaria, valoración primaria y estabilización inicial del paciente.",
+    "imagen": "img/cursos/prehospitalaria.jpg"
+  },
+  {
+    "id": 11,
+    "nombre": "Primeros Auxilios en el Trabajo",
+    "nivel": "Básico",
+    "estado": "Disponible",
+    "duracion": "8 horas",
+    "modalidad": "Presencial",
+    "institucion": "INS",
+    "descripcion": "Curso dirigido a trabajadores para responder adecuadamente ante accidentes laborales.",
+    "imagen": "img/cursos/trabajo.jpg"
+  },
+  {
+    "id": 12,
+    "nombre": "Respuesta ante Desastres",
+    "nivel": "Avanzado",
+    "estado": "Disponible",
+    "duracion": "10 horas",
+    "modalidad": "Presencial",
+    "institucion": "Comisión Nacional de Emergencias",
+    "descripcion": "Conozca los protocolos básicos para actuar ante terremotos, inundaciones, incendios y otras situaciones de desastre.",
+    "imagen": "img/cursos/desastres.jpg"
+  }
+]

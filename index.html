@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ResQ+</title>
+
+    <link rel="icon" type="image/png" href="img/logo1.png">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container header-content">
+
+            <a href="index.html" class="brand">
+                <img src="img/logo1.png" alt="Logo de ResQ+">
+                <strong>ResQ+</strong>
+            </a>
+
+            <nav class="main-nav">
+                <ul>
+                    <li><a class="active" href="index.html">Inicio</a></li>
+                    <li><a href="emergencias.html">Emergencias</a></li>
+                    <li><a href="cursos.html">Cursos</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-content">
+
+                <div class="hero-text">
+                    <small class="tagline">Plataforma educativa de primeros auxilios</small>
+
+                    <h1>Información confiable y recursos esenciales para actuar con mayor seguridad ante una emergencia</h1>
+
+                    <p>
+                        <strong>ResQ+</strong> es una plataforma web creada para consultar
+                        información sencilla sobre primeros auxilios, revisar situaciones comunes
+                        de emergencia y encontrar opciones de capacitación.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="emergencias.html" class="btn-primary">
+                            Consultar emergencias
+                        </a>
+
+                        <a href="cursos.html" class="btn-secondary">
+                            Ver cursos
+                        </a>
+                    </div>
+
+                    <p class="alerta">
+                        <mark>Importante:</mark>
+                        Esta plataforma tiene fines educativos y no sustituye la atención médica profesional.
+                    </p>
+                </div>
+
+                <aside class="hero-card">
+                    <h2>Consulta rápida</h2>
+
+                    <p>
+                        Encuentra información organizada sobre situaciones comunes y revisa
+                        recomendaciones básicas antes de actuar.
+                    </p>
+
+                    <ul>
+                        <li>🩹 Quemaduras</li>
+                        <li>🩸 Heridas con sangrado</li>
+                        <li>🫁 Atragantamiento</li>
+                        <li>⚡ Convulsiones</li>
+                        <li>💤 Desmayos</li>
+                    </ul>
+                </aside>
+
+            </div>
+        </section>
+        <section class="container intro-grid">
+
+            <article class="info-card">
+                <h2>¿Por qué ResQ+?</h2>
+                <p>
+                    Muchas personas no saben cómo reaccionar durante una emergencia
+                    y la información suele estar dispersa en diferentes sitios.
+                </p>
+            </article>
+
+            <article class="info-card">
+                <h2>Guía rápida</h2>
+                <p>
+                    La plataforma organiza emergencias por categorías para que el usuario
+                    pueda consultar información básica de forma sencilla.
+                </p>
+            </article>
+
+            <article class="info-card">
+                <h2>Capacitación</h2>
+                <p>
+                    También se incluye una sección para consultar cursos de primeros auxilios
+                    y fortalecer la preparación ante emergencias.
+                </p>
+            </article>
+
+        </section>
+        <section class="container">
+
+            <div class="titulo-resultados">
+                <h2>Emergencias más consultadas</h2>
+
+                <span class="contador">
+                    Informacion Encontrada
+                </span>
+            </div>
+
+            <p>
+                Estas emergencias se cargan dinámicamente desde el archivo
+                <strong>emergencias.json</strong>, reutilizando la información principal
+                del sistema.
+            </p>
+
+            <div id="emergenciasInicio" class="cards-grid">
+                <!-- JavaScript cargará las tarjetas aquí -->
+            </div>
+
+        </section>
+        <section class="container seccion-dinamica">
+
+            <h2>Consejo rápido</h2>
+
+            <p>
+                Presiona el botón para recibir una recomendación básica sobre primeros auxilios.
+            </p>
+
+            <button id="btnMensaje" class="btn-primary" type="button">
+                Mostrar recomendación
+            </button>
+
+            <p id="mensajeInicio" class="mensaje"></p>
+
+        </section>
+        <section class="container mapa-section">
+
+            <h2>Centros médicos cercanos</h2>
+
+            <p>
+                En una emergencia es importante conocer centros médicos cercanos.
+                El mapa muestra una referencia general y también permite buscar hospitales
+                según la ubicación aproximada del usuario.
+            </p>
+
+            <div class="mapa-acciones">
+                <button id="btnUbicacion" class="btn-primary" type="button">
+                    Buscar según mi ubicación
+                </button>
+
+                <p id="mensajeUbicacion" class="mensaje"></p>
+            </div>
+
+            <iframe
+                id="mapaCentros"
+                src="https://www.google.com/maps?q=hospitales%20Costa%20Rica&output=embed"
+                width="100%"
+                height="420"
+                loading="lazy"
+                title="Mapa de hospitales">
+            </iframe>
+
+        </section>
+        <section class="container">
+
+            <h2>¿Qué hacer ante una emergencia?</h2>
+
+            <p>
+                Aunque cada situación requiere una atención diferente, existen acciones
+                generales que pueden ayudar a responder de forma más segura mientras llega
+                la ayuda profesional.
+            </p>
+
+            <div class="steps">
+
+                <article>
+                    <data value="1">🚨</data>
+                    <h3>Mantén la calma</h3>
+                    <p>
+                        Conserva la calma y analiza la situación antes de actuar.
+                    </p>
+                </article>
+
+                <article>
+                    <data value="2">📞</data>
+                    <h3>Llama al 911</h3>
+                    <p>
+                        Si existe riesgo para la vida, solicita ayuda profesional
+                        inmediatamente.
+                    </p>
+                </article>
+
+                <article>
+                    <data value="3">❤️</data>
+                    <h3>Brinda ayuda</h3>
+                    <p>
+                        Aplica únicamente los procedimientos que conozcas y que sean seguros.
+                    </p>
+                </article>
+
+            </div>
+
+            <br>
+
+            <div class="steps">
+
+                <article>
+                    <data value="4">🩺</data>
+                    <h3>Protege a la persona</h3>
+                    <p>
+                        Evita mover al paciente si sospechas lesiones graves y mantén la calma.
+                    </p>
+                </article>
+
+                <article>
+                    <data value="5">🏥</data>
+                    <h3>Espera la ayuda</h3>
+                    <p>
+                        Permanece junto a la persona hasta que lleguen los servicios de emergencia.
+                    </p>
+                </article>
+
+                <article>
+                    <data value="6">📚</data>
+                    <h3>Capacítate</h3>
+                    <p>
+                        Aprender primeros auxilios mediante cursos certificados mejora la respuesta
+                        ante una emergencia.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+        <aside class="container aviso">
+
+            <h2>Recordatorio importante</h2>
+
+            <p>
+                Los primeros auxilios buscan brindar una atención inicial y disminuir el
+                riesgo de complicaciones mientras llega la ayuda profesional.
+                En Costa Rica, ante una emergencia real, comunícate con el
+                <strong>911</strong>.
+            </p>
+
+        </aside>
+
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="container footer-content">
+
+            <section>
+
+                <h3>ResQ+</h3>
+
+                <p>
+                    Plataforma educativa desarrollada para facilitar el aprendizaje de
+                    primeros auxilios y promover la preparación ante situaciones de emergencia.
+                </p>
+
+            </section>
+
+            <section>
+
+                <h3>Enlaces rápidos</h3>
+
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="emergencias.html">Emergencias</a></li>
+                    <li><a href="cursos.html">Cursos</a></li>
+                </ul>
+
+            </section>
+
+            <section>
+
+                <h3>Contacto</h3>
+
+                <address>
+                    Alajuela, Costa Rica
+                    <br>
+                    contacto@resqplus.com
+                </address>
+
+            </section>
+
+        </div>
+
+        <p class="copy">
+            <small>
+                &copy; 2026 ResQ+ | Proyecto académico de Programación en Ambiente Web
+            </small>
+        </p>
+
+    </footer>
+
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>

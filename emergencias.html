@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ResQ+ | Emergencias</title>
+
+    <link rel="icon" type="image/png" href="img/logo1.png">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="container header-content">
+
+            <a href="index.html" class="brand">
+                <img src="img/logo1.png" alt="Logo ResQ+">
+                <strong>ResQ+</strong>
+            </a>
+
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a class="active" href="emergencias.html">Emergencias</a></li>
+                    <li><a href="cursos.html">Cursos</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+
+        <section class="container buscador-section">
+            <h1>Guía de emergencias</h1>
+            <p>
+                Consulta información educativa sobre primeros auxilios. Busca una emergencia
+                o selecciona una categoría para ver recomendaciones, señales de alerta y
+                recursos de apoyo.
+            </p>
+
+            <div class="buscador-grid">
+                <div class="campo">
+                    <label for="busquedaEmergencia">Buscar emergencia</label>
+                    <input type="text" id="busquedaEmergencia" placeholder="Ejemplo: quemadura">
+                </div>
+
+                <div class="campo">
+                    <label for="filtroCategoria">Categoría</label>
+                    <select id="filtroCategoria">
+                        <option value="Todas">Todas las categorías</option>
+                        <option value="Quemaduras">Quemaduras</option>
+                        <option value="Heridas">Heridas</option>
+                        <option value="Respiración">Respiración</option>
+                        <option value="Pérdida de conciencia">Pérdida de conciencia</option>
+                        <option value="Golpes y lesiones">Golpes y lesiones</option>
+                        <option value="Reacciones">Reacciones</option>
+                        <option value="Emergencia médica">Emergencia médica</option>
+                        <option value="Temperatura corporal">Temperatura corporal</option>
+                        <option value="Intoxicación">Intoxicación</option>
+                        <option value="Metabólica">Metabólica</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="acciones-buscador">
+                <button id="btnLimpiar" class="btn-secondary" type="button">
+                    Limpiar búsqueda
+                </button>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="titulo-resultados">
+                <h2>Emergencias disponibles</h2>
+                <span id="contadorResultados" class="contador">
+                    Emergencias encontradas: 0
+                </span>
+            </div>
+
+            <div id="contenedorEmergencias" class="cards-grid">
+                <!-- JavaScript cargará las tarjetas aquí -->
+            </div>
+        </section>
+        <section class="container detalle-section">
+            <div class="titulo-resultados">
+                <h2>Mis emergencias guardadas</h2>
+                <button
+                    id="btnLimpiarFavoritos"
+                    class="btn-secondary"
+                    type="button">
+                    Eliminar todas
+                </button>
+            </div>
+            <div id="favoritosEmergencias" class="cards-grid">
+
+            </div>
+
+        </section>
+        <section class="container detalle-section">
+            <h2>Ficha de emergencia</h2>
+
+            <div id="detalleEmergencia" class="detalle-card">
+                <p>
+                    Selecciona una emergencia para ver síntomas, qué hacer, qué evitar,
+                    cuándo llamar al 911, videos y fuentes de referencia.
+                </p>
+            </div>
+        </section>
+
+        <section class="container informacion-extra">
+            <article class="info-card">
+                <h3>Uso educativo</h3>
+                <p>
+                    La información presentada funciona como guía básica y no sustituye
+                    la atención médica profesional.
+                </p>
+            </article>
+
+            <article class="info-card">
+                <h3>Actúa con seguridad</h3>
+                <p>
+                    Antes de ayudar, verifica que el lugar sea seguro para ti y para
+                    la persona afectada.
+                </p>
+            </article>
+
+            <article class="info-card">
+                <h3>Emergencias reales</h3>
+                <p>
+                    Si existe riesgo para la vida o una lesión grave, comunícate
+                    inmediatamente al <strong>911</strong>.
+                </p>
+            </article>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <section>
+                <h3>ResQ+</h3>
+                <p>Plataforma educativa desarrollada para facilitar el aprendizaje de
+                    primeros auxilios y promover la preparación ante situaciones de emergencia.
+                </p>
+            </section>
+
+            <section>
+                <h3>Enlaces rápidos</h3>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="emergencias.html">Emergencias</a></li>
+                    <li><a href="cursos.html">Cursos</a></li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Contacto</h3>
+                <address>
+                    Alajuela, Costa Rica<br>
+                    contacto@resqplus.com
+                </address>
+            </section>
+        </div>
+
+        <p class="copy">
+            <small>&copy; 2026 ResQ+ | Proyecto académico</small>
+        </p>
+    </footer>
+
+    <script src="js/emergencias.js"></script>
+
+</body>
+
+</html>

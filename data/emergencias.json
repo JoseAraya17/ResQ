@@ -1,0 +1,619 @@
+[
+  {
+    "id": 1,
+    "nombre": "Quemadura leve",
+    "imagen": "img/emergencias/quemadura.png",
+    "categoria": "Quemaduras",
+    "estado": "Moderado",
+    "descripcion": "Una quemadura leve afecta las capas superficiales de la piel y puede causar enrojecimiento, ardor, inflamación y sensibilidad. Generalmente ocurre por contacto con calor, líquidos calientes, vapor o superficies calientes.",
+    "sintomas": [
+      "Enrojecimiento en la zona afectada.",
+      "Dolor o ardor en la piel.",
+      "Inflamación leve.",
+      "Sensibilidad al tocar la zona.",
+      "Ampollas pequeñas en algunos casos."
+    ],
+    "que_hacer": [
+      "Aleja a la persona de la fuente de calor para evitar que la lesión continúe.",
+      "Coloca la zona afectada bajo agua fresca, no helada, durante varios minutos para ayudar a disminuir el dolor y el calor en la piel.",
+      "Retira con cuidado anillos, pulseras o ropa ajustada cerca de la quemadura antes de que la zona se inflame.",
+      "Cubre la quemadura con una gasa limpia o un paño seco y limpio, sin presionar demasiado.",
+      "Observa la evolución de la lesión y busca atención médica si el dolor aumenta, aparecen ampollas grandes o signos de infección."
+    ],
+    "que_no_hacer": [
+      "No apliques pasta dental, mantequilla, aceite, café ni remedios caseros.",
+      "No revientes las ampollas.",
+      "No coloques hielo directamente sobre la piel.",
+      "No retires ropa pegada a la quemadura."
+    ],
+    "cuando_llamar_911": "Llama al 911 si la quemadura es extensa, afecta cara, manos, pies, genitales o articulaciones importantes, o si fue causada por electricidad, químicos o fuego directo.",
+    "video": "https://www.youtube.com/results?search_query=primeros+auxilios+quemaduras+español+cruz+roja",
+    "fuente": "Cruz Roja | Mayo Clinic en Español"
+  },
+  {
+    "id": 2,
+    "nombre": "Herida con sangrado",
+    "imagen": "img/emergencias/herida.png",
+    "categoria": "Heridas",
+    "estado": "Urgente",
+    "descripcion": "Una herida con sangrado ocurre cuando la piel o los tejidos se rompen y hay pérdida de sangre. Puede ser causada por cortes, golpes, caídas u objetos filosos.",
+    "sintomas": [
+      "Salida visible de sangre.",
+      "Dolor en la zona afectada.",
+      "Piel abierta o cortada.",
+      "Inflamación alrededor de la herida.",
+      "Debilidad o mareo si el sangrado es abundante."
+    ],
+    "que_hacer": [
+      "Antes de ayudar, verifica que el lugar sea seguro y evita el contacto directo con la sangre si no tienes protección.",
+      "Si es posible, lava tus manos o utiliza guantes antes de atender la herida.",
+      "Presiona directamente sobre la herida con una gasa, venda o paño limpio para ayudar a controlar el sangrado.",
+      "Mantén la presión constante durante varios minutos sin levantar el paño repetidamente.",
+      "Si la sangre atraviesa la gasa, coloca otra encima sin retirar la primera.",
+      "Cuando el sangrado disminuya, cubre la herida y busca atención médica si es profunda, extensa o no deja de sangrar."
+    ],
+    "que_no_hacer": [
+      "No retires objetos grandes que estén incrustados en la herida.",
+      "No limpies profundamente una herida grave.",
+      "No apliques alcohol directamente dentro de una herida profunda.",
+      "No retires la primera gasa si está empapada; coloca otra encima."
+    ],
+    "cuando_llamar_911": "Llama al 911 si el sangrado es abundante, no se detiene con presión, la persona se siente débil, hay un objeto incrustado o la herida fue causada por un accidente grave.",
+    "video": "https://www.youtube.com/results?search_query=control+de+hemorragias+primeros+auxilios+español",
+    "fuente": "Cruz Roja | MedlinePlus en Español"
+  },
+  {
+    "id": 3,
+    "nombre": "Atragantamiento",
+    "imagen": "img/emergencias/atragantamiento.png",
+    "categoria": "Respiración",
+    "estado": "Crítico",
+    "descripcion": "El atragantamiento ocurre cuando un alimento u objeto bloquea parcial o totalmente la vía respiratoria. Si la obstrucción es completa, la persona puede dejar de respirar y perder el conocimiento rápidamente.",
+    "sintomas": [
+      "Dificultad para respirar.",
+      "No puede hablar o emitir sonidos.",
+      "Tos débil o inexistente.",
+      "Se lleva las manos al cuello.",
+      "Labios o piel con color azulado.",
+      "Pérdida de conocimiento en casos graves."
+    ],
+    "que_hacer": [
+      "Pregunta rápidamente si la persona se está atragantando y observa si puede hablar, toser o respirar.",
+      "Si la persona puede toser con fuerza, anímala a seguir tosiendo sin intervenir de forma agresiva.",
+      "Si no puede respirar, hablar o toser, pide ayuda inmediatamente y llama al 911.",
+      "Si conoces la técnica, aplica maniobras de desobstrucción como golpes en la espalda y compresiones abdominales.",
+      "Continúa hasta que el objeto salga, la persona pueda respirar o llegue ayuda profesional.",
+      "Si pierde el conocimiento, solicita ayuda de emergencia e inicia RCP solo si sabes realizarla."
+    ],
+    "que_no_hacer": [
+      "No metas los dedos en la boca si no puedes ver claramente el objeto.",
+      "No le des agua ni alimentos.",
+      "No golpees la espalda si la persona está tosiendo con fuerza.",
+      "No retrases la llamada al 911 si la persona no puede respirar."
+    ],
+    "cuando_llamar_911": "Llama al 911 inmediatamente si la persona no puede respirar, hablar, toser con fuerza, se pone azulada o pierde el conocimiento.",
+    "video": "https://www.youtube.com/results?search_query=maniobra+de+heimlich+primeros+auxilios+español",
+    "fuente": "Cruz Roja | Mayo Clinic en Español"
+  },
+  {
+    "id": 4,
+    "nombre": "Desmayo",
+    "imagen": "img/emergencias/desmayo.png",
+    "categoria": "Pérdida de conciencia",
+    "estado": "Moderado",
+    "descripcion": "El desmayo es una pérdida breve del conocimiento causada por una disminución temporal del flujo de sangre al cerebro. Puede ocurrir por calor, estrés, dolor, falta de alimento, deshidratación o estar mucho tiempo de pie.",
+    "sintomas": [
+      "Mareo o debilidad repentina.",
+      "Visión borrosa.",
+      "Sudoración fría.",
+      "Palidez.",
+      "Náuseas.",
+      "Pérdida breve del conocimiento."
+    ],
+    "que_hacer": [
+      "Ayuda a la persona a acostarse boca arriba en un lugar seguro.",
+      "Eleva ligeramente sus piernas si no hay dolor o lesión.",
+      "Afloja ropa ajustada alrededor del cuello, pecho o cintura.",
+      "Revisa si respira normalmente y observa si recupera el conocimiento en poco tiempo.",
+      "Cuando despierte, evita que se levante de inmediato y permite que descanse unos minutos.",
+      "Si está completamente despierta, puede tomar agua poco a poco."
+    ],
+    "que_no_hacer": [
+      "No le des comida ni bebida mientras esté inconsciente.",
+      "No la sacudas ni le golpees la cara para despertarla.",
+      "No la levantes de inmediato después del desmayo.",
+      "No ignores el desmayo si ocurrió durante ejercicio, dolor de pecho o dificultad para respirar."
+    ],
+    "cuando_llamar_911": "Llama al 911 si la persona no despierta rápidamente, no respira normal, tuvo convulsiones, se golpeó la cabeza, está embarazada o presenta dolor en el pecho.",
+    "video": "https://www.youtube.com/results?search_query=primeros+auxilios+desmayo+español",
+    "fuente": "Cruz Roja | Mayo Clinic en Español"
+  },
+  {
+    "id": 5,
+    "nombre": "Convulsión",
+    "imagen": "img/emergencias/convulsion.png",
+    "categoria": "Pérdida de conciencia",
+    "estado": "Urgente",
+    "descripcion": "Una convulsión es una alteración repentina de la actividad eléctrica del cerebro que puede causar movimientos involuntarios, rigidez, pérdida de conciencia o confusión posterior.",
+    "sintomas": [
+      "Movimientos involuntarios del cuerpo.",
+      "Rigidez muscular.",
+      "Pérdida de conciencia.",
+      "Mirada fija o desconexión del entorno.",
+      "Confusión después del episodio.",
+      "Posible mordedura de lengua o pérdida de control de esfínteres."
+    ],
+    "que_hacer": [
+      "Mantén la calma y observa cuánto dura la convulsión.",
+      "Retira objetos cercanos que puedan golpear o lesionar a la persona.",
+      "Coloca algo suave bajo su cabeza, como una prenda doblada.",
+      "Afloja ropa ajustada alrededor del cuello.",
+      "Cuando los movimientos terminen, coloca a la persona de lado si respira normalmente.",
+      "Permanece con ella hasta que recupere la orientación o llegue ayuda profesional."
+    ],
+    "que_no_hacer": [
+      "No sujetes a la persona ni intentes detener sus movimientos.",
+      "No coloques objetos, dedos ni líquidos dentro de su boca.",
+      "No le des comida, agua o medicamentos mientras esté confundida o somnolienta.",
+      "No la muevas, a menos que esté en peligro."
+    ],
+    "cuando_llamar_911": "Llama al 911 si la convulsión dura más de 5 minutos, es la primera vez que ocurre, hay dificultad para respirar, la persona está embarazada, se lesionó o no recupera la conciencia.",
+    "video": "https://www.youtube.com/results?search_query=primeros+auxilios+convulsiones+español",
+    "fuente": "Cruz Roja | Mayo Clinic en Español"
+  },
+    {
+    "id": 6,
+    "nombre": "Fractura",
+    "imagen": "img/emergencias/fractura.png",
+    "categoria": "Golpes y lesiones",
+    "estado": "Urgente",
+    "descripcion": "Una fractura es la ruptura parcial o total de un hueso, generalmente causada por caídas, golpes fuertes o accidentes. Puede presentarse con deformidad, dolor intenso y dificultad para mover la extremidad afectada.",
+    "sintomas": [
+      "Dolor intenso en la zona afectada.",
+      "Inflamación.",
+      "Hematomas.",
+      "Imposibilidad para mover la extremidad.",
+      "Deformidad visible."
+    ],
+    "que_hacer": [
+      "Mantén a la persona lo más quieta posible para evitar que la lesión empeore.",
+      "Inmoviliza la extremidad en la posición en la que se encuentra utilizando una férula o un objeto rígido si sabes cómo hacerlo.",
+      "Aplica una compresa fría envuelta en un paño durante 15 a 20 minutos para disminuir la inflamación.",
+      "Si existe una herida abierta, cúbrela con una gasa limpia sin intentar acomodar el hueso.",
+      "Busca atención médica inmediata."
+    ],
+    "que_no_hacer": [
+      "No intentes acomodar el hueso.",
+      "No obligues a mover la extremidad.",
+      "No retires objetos incrustados.",
+      "No permitas que la persona camine si sospechas una fractura en piernas o cadera."
+    ],
+    "cuando_llamar_911": "Llama al 911 si existe deformidad evidente, sangrado abundante, sospecha de lesión en columna, pérdida de sensibilidad o la persona no puede moverse.",
+    "video": "https://www.youtube.com/results?search_query=primeros+auxilios+fracturas+español",
+    "fuente": "Cruz Roja | Mayo Clinic en Español"
+  },
+  {
+    "id": 7,
+    "nombre": "Sangrado nasal",
+    "imagen": "img/emergencias/sangrado_nasal.png",
+    "categoria": "Heridas",
+    "estado": "Leve",
+    "descripcion": "El sangrado nasal (epistaxis) es una pérdida de sangre proveniente de los vasos sanguíneos del interior de la nariz. Generalmente ocurre por resequedad, golpes o aumento de la presión arterial.",
+    "sintomas": [
+      "Salida de sangre por una o ambas fosas nasales.",
+      "Sensación de goteo hacia la garganta.",
+      "Mareo leve si la pérdida de sangre es importante."
+    ],
+    "que_hacer": [
+      "Sienta a la persona e indícale que incline ligeramente la cabeza hacia adelante.",
+      "Presiona suavemente la parte blanda de la nariz durante 10 a 15 minutos sin soltar.",
+      "Respira por la boca mientras mantienes la presión.",
+      "Cuando el sangrado se detenga, evita sonarte la nariz durante varias horas."
+    ],
+    "que_no_hacer": [
+      "No inclines la cabeza hacia atrás.",
+      "No introduzcas algodón profundamente dentro de la nariz.",
+      "No revises constantemente si ya dejó de sangrar antes de los 10 minutos."
+    ],
+    "cuando_llamar_911": "Busca atención médica si el sangrado dura más de 20 minutos, ocurre después de un golpe fuerte en la cabeza o es muy abundante.",
+    "video": "https://www.youtube.com/results?search_query=sangrado+nasal+primeros+auxilios+español",
+    "fuente": "MedlinePlus | Cruz Roja"
+  },
+  {
+    "id": 8,
+    "nombre": "Golpe fuerte",
+    "imagen": "img/emergencias/golpe.png",
+    "categoria": "Golpes y lesiones",
+    "estado": "Moderado",
+    "descripcion": "Los golpes fuertes pueden producir lesiones en músculos, articulaciones o tejidos blandos, ocasionando dolor, inflamación y aparición de hematomas.",
+    "sintomas": [
+      "Dolor localizado.",
+      "Inflamación.",
+      "Hematomas.",
+      "Limitación del movimiento.",
+      "Sensibilidad al tocar la zona."
+    ],
+    "que_hacer": [
+      "Permite que la persona descanse la zona afectada.",
+      "Aplica una bolsa de hielo envuelta en un paño durante 15 a 20 minutos.",
+      "Eleva la extremidad si es posible para disminuir la inflamación.",
+      "Observa la evolución durante las siguientes horas."
+    ],
+    "que_no_hacer": [
+      "No masajees la zona durante las primeras 24 horas.",
+      "No apliques calor inmediatamente después del golpe.",
+      "No continúes realizando actividad física si existe dolor importante."
+    ],
+    "cuando_llamar_911": "Solicita ayuda si existe pérdida de conocimiento, vómitos, dolor intenso, deformidad o dificultad para mover la extremidad.",
+    "video": "https://www.youtube.com/results?search_query=golpes+y+contusiones+primeros+auxilios+español",
+    "fuente": "Mayo Clinic en Español"
+  },
+  {
+    "id": 9,
+    "nombre": "Picadura de insecto",
+    "imagen": "img/emergencias/picadura.png",
+    "categoria": "Reacciones",
+    "estado": "Leve",
+    "descripcion": "Las picaduras de insectos pueden producir dolor, inflamación, enrojecimiento y, en algunas personas, reacciones alérgicas de gravedad variable.",
+    "sintomas": [
+      "Dolor o ardor.",
+      "Enrojecimiento.",
+      "Inflamación.",
+      "Picazón.",
+      "En casos graves, dificultad para respirar."
+    ],
+    "que_hacer": [
+      "Lava la zona afectada con agua y jabón.",
+      "Aplica una compresa fría para disminuir la inflamación.",
+      "Si observas un aguijón visible, retíralo cuidadosamente raspando la piel con una tarjeta rígida.",
+      "Mantén a la persona en observación para detectar signos de alergia."
+    ],
+    "que_no_hacer": [
+      "No rasques la zona afectada.",
+      "No exprimas la picadura.",
+      "No apliques sustancias caseras sobre la piel."
+    ],
+    "cuando_llamar_911": "Llama al 911 si aparece dificultad para respirar, inflamación de labios o lengua, pérdida de conciencia o una reacción alérgica generalizada.",
+    "video": "https://www.youtube.com/results?search_query=picaduras+de+insectos+primeros+auxilios+español",
+    "fuente": "Cruz Roja"
+  },
+  {
+    "id": 10,
+    "nombre": "Dolor en el pecho",
+    "imagen": "img/emergencias/pecho.png",
+    "categoria": "Emergencia médica",
+    "estado": "Crítico",
+    "descripcion": "El dolor en el pecho puede ser un signo de una emergencia médica como un infarto. Aunque existen otras causas menos graves, siempre debe valorarse con rapidez.",
+    "sintomas": [
+      "Dolor o presión en el pecho.",
+      "Dolor que se extiende al brazo, cuello, mandíbula o espalda.",
+      "Sudoración fría.",
+      "Dificultad para respirar.",
+      "Náuseas o mareo."
+    ],
+    "que_hacer": [
+      "Suspende cualquier actividad física y ayuda a la persona a permanecer sentada o recostada en una posición cómoda.",
+      "Llama inmediatamente al 911.",
+      "Mantén la calma y observa si la persona permanece consciente y respirando normalmente.",
+      "Si la persona pierde el conocimiento y deja de respirar, inicia RCP únicamente si tienes capacitación."
+    ],
+    "que_no_hacer": [
+      "No ignores el dolor esperando que desaparezca.",
+      "No permitas que la persona continúe realizando esfuerzos.",
+      "No administres medicamentos que no hayan sido indicados por un profesional."
+    ],
+    "cuando_llamar_911": "Ante cualquier dolor intenso en el pecho acompañado de dificultad para respirar, sudoración o pérdida de conciencia, llama inmediatamente al 911.",
+    "video": "https://www.youtube.com/results?search_query=dolor+en+el+pecho+primeros+auxilios+español",
+    "fuente": "Fundación Española del Corazón"
+  },
+    {
+    "id": 11,
+    "nombre": "Ataque cardíaco",
+    "imagen": "img/emergencias/infarto.png",
+    "categoria": "Emergencia médica",
+    "estado": "Crítico",
+    "descripcion": "Un ataque cardíaco ocurre cuando el flujo de sangre hacia una parte del corazón se bloquea. Actuar durante los primeros minutos puede salvar la vida de la persona y reducir el daño permanente al corazón.",
+    "sintomas": [
+      "Dolor intenso o presión en el centro del pecho.",
+      "Dolor que puede extenderse al brazo izquierdo, cuello, mandíbula, espalda o hombros.",
+      "Dificultad para respirar.",
+      "Sudoración fría.",
+      "Náuseas o vómitos.",
+      "Mareo o pérdida del conocimiento."
+    ],
+    "que_hacer": [
+      "Llama inmediatamente al 911 o solicita que alguien más lo haga.",
+      "Ayuda a la persona a permanecer sentada o semisentada en una posición cómoda y evita que camine.",
+      "Afloja la ropa ajustada alrededor del cuello y pecho.",
+      "Mantén la calma y tranquiliza a la persona mientras llega la ayuda médica.",
+      "Si pierde el conocimiento y deja de respirar normalmente, inicia RCP únicamente si sabes realizarla."
+    ],
+    "que_no_hacer": [
+      "No permitas que continúe realizando esfuerzos físicos.",
+      "No esperes a que el dolor desaparezca por sí solo.",
+      "No administres medicamentos que no hayan sido indicados por un profesional."
+    ],
+    "cuando_llamar_911": "Siempre debe llamarse inmediatamente al 911 ante la sospecha de un ataque cardíaco.",
+    "video": "https://www.youtube.com/results?search_query=infarto+primeros+auxilios+español",
+    "fuente": "Fundación Española del Corazón | Mayo Clinic en Español"
+  },
+
+  {
+    "id": 12,
+    "nombre": "Accidente cerebrovascular (ACV)",
+    "imagen": "img/emergencias/acv.png",
+    "categoria": "Emergencia médica",
+    "estado": "Crítico",
+    "descripcion": "El accidente cerebrovascular ocurre cuando el flujo sanguíneo hacia una parte del cerebro se interrumpe. Cada minuto sin tratamiento puede provocar daño cerebral permanente.",
+    "sintomas": [
+      "Debilidad o parálisis repentina de un lado del cuerpo.",
+      "Dificultad para hablar o entender.",
+      "Desviación de la boca o del rostro.",
+      "Pérdida repentina de la visión.",
+      "Dolor de cabeza muy intenso.",
+      "Pérdida del equilibrio."
+    ],
+    "que_hacer": [
+      "Llama inmediatamente al 911 al identificar cualquiera de los síntomas.",
+      "Mantén a la persona tranquila y evita que camine.",
+      "Anota la hora en que comenzaron los síntomas; esta información es muy importante para el tratamiento.",
+      "Si pierde el conocimiento pero continúa respirando, colócala de lado hasta la llegada de los servicios médicos."
+    ],
+    "que_no_hacer": [
+      "No le des alimentos, bebidas ni medicamentos.",
+      "No permitas que conduzca un vehículo.",
+      "No esperes a que los síntomas desaparezcan."
+    ],
+    "cuando_llamar_911": "Toda sospecha de un accidente cerebrovascular requiere atención inmediata llamando al 911.",
+    "video": "https://www.youtube.com/results?search_query=acv+primeros+auxilios+español",
+    "fuente": "American Stroke Association | Mayo Clinic en Español"
+  },
+
+  {
+    "id": 13,
+    "nombre": "Insolación",
+    "imagen": "img/emergencias/insolacion.png",
+    "categoria": "Temperatura corporal",
+    "estado": "Urgente",
+    "descripcion": "La insolación ocurre cuando la temperatura corporal aumenta de forma peligrosa debido a la exposición prolongada al calor o al esfuerzo físico en ambientes muy calientes.",
+    "sintomas": [
+      "Temperatura corporal elevada.",
+      "Piel caliente y enrojecida.",
+      "Dolor de cabeza intenso.",
+      "Mareos.",
+      "Náuseas.",
+      "Confusión o pérdida de conciencia."
+    ],
+    "que_hacer": [
+      "Traslada a la persona inmediatamente a un lugar fresco y con sombra.",
+      "Afloja o retira la ropa innecesaria.",
+      "Aplica paños húmedos o agua fresca sobre la piel para ayudar a disminuir la temperatura corporal.",
+      "Si está completamente consciente, ofrece pequeños sorbos de agua.",
+      "Permanece vigilando su estado hasta recibir atención médica."
+    ],
+    "que_no_hacer": [
+      "No utilices agua helada directamente sobre todo el cuerpo.",
+      "No obligues a beber si la persona está inconsciente.",
+      "No continúes exponiéndola al calor."
+    ],
+    "cuando_llamar_911": "Llama al 911 si la persona pierde el conocimiento, presenta convulsiones o no mejora rápidamente.",
+    "video": "https://www.youtube.com/results?search_query=golpe+de+calor+primeros+auxilios+español",
+    "fuente": "Cruz Roja | Mayo Clinic en Español"
+  },
+
+  {
+    "id": 14,
+    "nombre": "Hipotermia",
+    "imagen": "img/emergencias/hipotermia.png",
+    "categoria": "Temperatura corporal",
+    "estado": "Urgente",
+    "descripcion": "La hipotermia ocurre cuando la temperatura corporal desciende por debajo de los valores normales debido a una exposición prolongada al frío.",
+    "sintomas": [
+      "Escalofríos intensos.",
+      "Confusión.",
+      "Habla lenta.",
+      "Somnolencia.",
+      "Respiración lenta.",
+      "Piel fría y pálida."
+    ],
+    "que_hacer": [
+      "Traslada a la persona a un lugar cálido y protegido del viento.",
+      "Retira cuidadosamente la ropa mojada si la tiene.",
+      "Abriga a la persona con mantas secas comenzando por el torso.",
+      "Si está completamente consciente, puede ofrecerse una bebida caliente sin alcohol ni cafeína.",
+      "Permanece vigilando constantemente su estado."
+    ],
+    "que_no_hacer": [
+      "No calientes el cuerpo de forma brusca.",
+      "No utilices agua muy caliente directamente sobre la piel.",
+      "No frotes con fuerza las extremidades."
+    ],
+    "cuando_llamar_911": "Solicita ayuda médica inmediata si la persona presenta confusión importante, pérdida de conciencia o respiración muy lenta.",
+    "video": "https://www.youtube.com/results?search_query=hipotermia+primeros+auxilios+español",
+    "fuente": "Mayo Clinic en Español"
+  },
+
+  {
+    "id": 15,
+    "nombre": "Ahogamiento",
+    "imagen": "img/emergencias/ahogamiento.png",
+    "categoria": "Respiración",
+    "estado": "Crítico",
+    "descripcion": "El ahogamiento ocurre cuando una persona presenta dificultad para respirar debido a la entrada de agua en las vías respiratorias. Requiere atención inmediata.",
+    "sintomas": [
+      "Dificultad para respirar.",
+      "Tos persistente.",
+      "Piel o labios azulados.",
+      "Pérdida del conocimiento.",
+      "Ausencia de respiración."
+    ],
+    "que_hacer": [
+      "Saca a la persona del agua únicamente si hacerlo no pone en riesgo tu propia seguridad.",
+      "Llama inmediatamente al 911.",
+      "Comprueba si responde y si respira normalmente.",
+      "Si no respira y sabes cómo hacerlo, inicia RCP mientras llega la ayuda médica.",
+      "Mantén a la persona abrigada después del rescate."
+    ],
+    "que_no_hacer": [
+      "No intentes sacar agua de los pulmones colocando a la persona boca abajo.",
+      "No pierdas tiempo realizando maniobras innecesarias antes de iniciar RCP.",
+      "No abandones a la persona hasta que llegue ayuda."
+    ],
+    "cuando_llamar_911": "Siempre debe llamarse al 911 en cualquier caso de ahogamiento, aunque la persona parezca recuperarse.",
+    "video": "https://www.youtube.com/results?search_query=ahogamiento+primeros+auxilios+español",
+    "fuente": "Cruz Roja | American Red Cross"
+  },
+    {
+    "id": 16,
+    "nombre": "Intoxicación",
+    "imagen": "img/emergencias/intoxicacion.png",
+    "categoria": "Intoxicación",
+    "estado": "Urgente",
+    "descripcion": "Una intoxicación ocurre cuando una sustancia nociva ingresa al organismo por ingestión, inhalación, contacto con la piel o inyección. Dependiendo del producto y la cantidad, puede afectar rápidamente órganos vitales.",
+    "sintomas": [
+      "Náuseas o vómitos.",
+      "Dolor abdominal.",
+      "Confusión o somnolencia.",
+      "Dificultad para respirar.",
+      "Convulsiones.",
+      "Pérdida del conocimiento."
+    ],
+    "que_hacer": [
+      "Identifica, si es posible, la sustancia que causó la intoxicación sin exponerte al peligro.",
+      "Llama inmediatamente al 911 o al Centro Nacional de Intoxicaciones si está disponible.",
+      "Mantén a la persona tranquila y vigilada mientras llega la ayuda médica.",
+      "Si la intoxicación fue por inhalación, traslada a la persona a un lugar con aire fresco únicamente si es seguro hacerlo.",
+      "Conserva el envase o la etiqueta del producto para mostrárselo al personal médico."
+    ],
+    "que_no_hacer": [
+      "No provoques el vómito a menos que un profesional de salud lo indique.",
+      "No administres leche, agua ni remedios caseros sin indicación médica.",
+      "No dejes sola a la persona."
+    ],
+    "cuando_llamar_911": "Llama inmediatamente si la persona presenta dificultad para respirar, convulsiones, pérdida de conciencia o si se desconoce la sustancia ingerida.",
+    "video": "https://www.youtube.com/results?search_query=intoxicacion+primeros+auxilios+español",
+    "fuente": "MedlinePlus en Español | Cruz Roja"
+  },
+
+  {
+    "id": 17,
+    "nombre": "Reacción alérgica grave (Anafilaxia)",
+    "imagen": "img/emergencias/alergia.png",
+    "categoria": "Reacciones",
+    "estado": "Crítico",
+    "descripcion": "La anafilaxia es una reacción alérgica grave que puede desarrollarse en pocos minutos y poner en riesgo la vida debido a la inflamación de las vías respiratorias y la disminución de la presión arterial.",
+    "sintomas": [
+      "Inflamación de labios, lengua o garganta.",
+      "Dificultad para respirar.",
+      "Ronchas o urticaria generalizada.",
+      "Mareo intenso.",
+      "Pérdida del conocimiento."
+    ],
+    "que_hacer": [
+      "Llama inmediatamente al 911.",
+      "Si la persona tiene un autoinyector de adrenalina (EpiPen) y sabes utilizarlo, ayúdala a administrarlo.",
+      "Mantén a la persona acostada con las piernas ligeramente elevadas, salvo que tenga dificultad para respirar.",
+      "Permanece vigilando la respiración hasta que llegue la ayuda médica."
+    ],
+    "que_no_hacer": [
+      "No esperes a que los síntomas mejoren por sí solos.",
+      "No ofrezcas alimentos ni bebidas.",
+      "No permitas que la persona camine si presenta mareos importantes."
+    ],
+    "cuando_llamar_911": "Toda reacción alérgica grave requiere atención inmediata llamando al 911.",
+    "video": "https://www.youtube.com/results?search_query=anafilaxia+primeros+auxilios+español",
+    "fuente": "Cruz Roja | Mayo Clinic en Español"
+  },
+
+  {
+    "id": 18,
+    "nombre": "Crisis asmática",
+    "imagen": "img/emergencias/asma.png",
+    "categoria": "Respiración",
+    "estado": "Urgente",
+    "descripcion": "Una crisis asmática ocurre cuando las vías respiratorias se estrechan e inflaman, dificultando el paso del aire hacia los pulmones. Puede agravarse rápidamente si no se trata.",
+    "sintomas": [
+      "Dificultad para respirar.",
+      "Silbidos al respirar.",
+      "Opresión en el pecho.",
+      "Tos persistente.",
+      "Ansiedad por falta de aire."
+    ],
+    "que_hacer": [
+      "Mantén a la persona sentada en una posición cómoda.",
+      "Ayúdala a utilizar su inhalador de rescate si dispone de uno.",
+      "Anímala a respirar lentamente y mantener la calma.",
+      "Observa si mejora después de utilizar el medicamento.",
+      "Solicita ayuda médica si la respiración continúa empeorando."
+    ],
+    "que_no_hacer": [
+      "No obligues a la persona a acostarse completamente.",
+      "No retires el inhalador si sabe utilizarlo.",
+      "No retrases la búsqueda de ayuda si la respiración empeora."
+    ],
+    "cuando_llamar_911": "Llama al 911 si la persona no mejora tras usar el inhalador, tiene dificultad severa para respirar o pierde el conocimiento.",
+    "video": "https://www.youtube.com/results?search_query=crisis+asmatica+primeros+auxilios+español",
+    "fuente": "Mayo Clinic en Español"
+  },
+
+  {
+    "id": 19,
+    "nombre": "Electrocución",
+    "imagen": "img/emergencias/electrocucion.png",
+    "categoria": "Golpes y lesiones",
+    "estado": "Crítico",
+    "descripcion": "La electrocución ocurre cuando una corriente eléctrica atraviesa el cuerpo. Puede causar quemaduras, lesiones internas, alteraciones del ritmo cardíaco o paro cardiorrespiratorio.",
+    "sintomas": [
+      "Quemaduras en la piel.",
+      "Pérdida del conocimiento.",
+      "Dificultad para respirar.",
+      "Dolor muscular.",
+      "Alteraciones del ritmo cardíaco."
+    ],
+    "que_hacer": [
+      "Antes de acercarte, corta la corriente eléctrica si puedes hacerlo de forma segura.",
+      "Nunca toques directamente a la víctima mientras continúe en contacto con la fuente eléctrica.",
+      "Llama inmediatamente al 911.",
+      "Si la persona no respira y sabes realizar RCP, iníciala únicamente cuando sea seguro hacerlo."
+    ],
+    "que_no_hacer": [
+      "No toques a la víctima con las manos desnudas mientras exista corriente.",
+      "No utilices objetos metálicos para separarla de la fuente eléctrica.",
+      "No ignores lesiones aparentemente pequeñas."
+    ],
+    "cuando_llamar_911": "Toda electrocución debe ser valorada por personal médico, incluso si la persona parece encontrarse bien.",
+    "video": "https://www.youtube.com/results?search_query=electrocucion+primeros+auxilios+español",
+    "fuente": "Cruz Roja | Mayo Clinic"
+  },
+
+  {
+    "id": 20,
+    "nombre": "Hipoglucemia",
+    "imagen": "img/emergencias/hipoglucemia.png",
+    "categoria": "Metabólica",
+    "estado": "Urgente",
+    "descripcion": "La hipoglucemia ocurre cuando el nivel de glucosa en sangre disminuye por debajo de lo normal. Es frecuente en personas con diabetes, aunque también puede presentarse por otras causas.",
+    "sintomas": [
+      "Sudoración fría.",
+      "Temblor.",
+      "Hambre intensa.",
+      "Mareo.",
+      "Confusión.",
+      "Pérdida del conocimiento."
+    ],
+    "que_hacer": [
+      "Si la persona está consciente, ofrécele aproximadamente 15 gramos de carbohidratos de absorción rápida, como jugo, refresco regular o tabletas de glucosa.",
+      "Espera 15 minutos y verifica si los síntomas mejoran.",
+      "Cuando la persona se recupere, ofrécele un alimento más completo si corresponde.",
+      "Permanece acompañándola hasta asegurarte de que se encuentra estable."
+    ],
+    "que_no_hacer": [
+      "No administres alimentos o líquidos a una persona inconsciente.",
+      "No retrases la búsqueda de ayuda si la persona no mejora.",
+      "No permitas que conduzca inmediatamente después del episodio."
+    ],
+    "cuando_llamar_911": "Llama al 911 si la persona pierde el conocimiento, presenta convulsiones o no mejora después de recibir azúcar.",
+    "video": "https://www.youtube.com/results?search_query=hipoglucemia+primeros+auxilios+español",
+    "fuente": "American Diabetes Association | Mayo Clinic en Español"
+  }
+]
